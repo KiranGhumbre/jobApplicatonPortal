@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applied Jobs</title>
+    <link rel="stylesheet" href="./appliedjob.css">
+   
+</head>
+<body>
+    <div id="link">
+        <a href="./index.html">Home</a>
+        <a href="./appliedjob.html">Applied Jobs</a>
+        <a href="./bookmarks.html">Bookmarks</a> 
+    </div>
+    <select  id="sortName">
+        <option value="">Sort by Name</option>
+        <option value="ascending">Ascending</option>
+        <option value="descending">Descending</option>
+    </select>
+    <select  id="sortSalary">
+        <option value="">Sort by Salary</option>
+        <option value="lth">Low to high</option>
+        <option value="htl">high to low</option>
+    </select>
+    <select  id="filterRole" >
+        <option value="">Filter by role</option>
+        <option value="Frontend">Frontend</option>
+        <option value="Backend">Backend</option>
+        <option value="FSD">FSD</option>
+    </select>
+    <div id="table";>
+    <table id="table1">
+        <tbody>
+            <thead>
+                <tr>
+                <td>Name</td>
+                <td>Email</td>
+                <td>Role</td>
+                <td>Expected Salary</td>
+                <td>Bmarks</td>
+            </tr>
+            </thead>
+            
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
+<script src="./appliedjob.js"></script>

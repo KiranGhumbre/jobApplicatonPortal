@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#link {
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 50px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; 
+    background-color:rgb(231, 230, 230);
+}
+div >a {
+    font-size: 20px;
+    text-decoration: none;
+    color: teal;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 25%;
+    border-radius: 10px;
+    margin-top: 100px;
+    box-shadow: rgba(120, 120, 129, 0.25) 0px 100px 50px -20px, rgba(91, 89, 89, 0.3) 0px 60px 60px 30px;
+    padding: 40px;
+}
+form input{
+    height: 40px;
+    width: 65%;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    font-size: 20px;
+
+}
+#main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#btn {
+    background-color: rgb(14, 26, 43);
+    border: none;
+    color: aliceblue;
+    border-radius: 50px;
+    /* margin-top: 20px; */
+    margin-left: 80px;
+    font-size: 20px;
+    width: 60%;
+}
+h2 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+select{
+    height: 40px;
+    width: 35%;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+@media screen and (max-width:600px) {
+    form{
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 70%;
+    border-radius: 10px;
+    margin-top: 80px;
+    box-shadow: rgba(120, 120, 129, 0.25) 0px 100px 50px -20px, rgba(91, 89, 89, 0.3) 0px 60px 60px 30px;
+    padding: 40px;
+    }
+    
+}
